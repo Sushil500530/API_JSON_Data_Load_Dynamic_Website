@@ -11,4 +11,4 @@ function displayUsers2(oke){
         li.innerText = item.name;
         ul.appendChild(li)
     }
-}
+} 
