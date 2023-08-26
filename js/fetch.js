@@ -14,4 +14,4 @@ const url = 'https://jsonplaceholder.typicode.com/todos/1' ;
 fetch(url) 
     .then(promise => promise.json()) 
     .then(get => console.log(get))
-}
+} 
