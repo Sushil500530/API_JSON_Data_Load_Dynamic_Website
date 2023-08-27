@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call API</title>
+    <style>
+        #comment-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            
+        }
+        .div{
+            width:350px;
+            height: 450px;
+            background-color: lightgray;
+            padding: 10px 20px; 
+            margin: 10px; 
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        button{
+            background-color: chartreuse; 
+            padding: 8px 18px;
+            font-size:20px;
+            border: 2px solid chartreuse;
+            font-weight: 600;
+        }
+        button:hover{
+            background-color: transparent; 
+            border: 2px solid chartreuse;
+            color: #3d7a00;
+            transition: .3s;
+        }
+        .h2{
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <button onclick="loadComments()">Comments</button>
+                <div id="comment-container">
+                  
+                </div>
+
+        </section>
+    </main>
+    <script src="./new.js"></script>
+</body>
+</html>
